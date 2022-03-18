@@ -4,10 +4,10 @@ version: 2.1
 jobs:
   build:
     docker:
-      -image: cimg/openjdk:14
+      -image:cimg/openjdk:14
     steps:
       -checkout
-      -run: gradle build
+      -run:gradle build
 workflows:
   jobsequence:
     jobs:
