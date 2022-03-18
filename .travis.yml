@@ -2,4 +2,4 @@
   before_install:
     - chmod +x gradlew
   jdk:
-    - oreclejdk14 d
+    - oreclejdk14
